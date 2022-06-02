@@ -1,0 +1,36 @@
+<header>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</header>
+
+<div id="main">
+  <nav
+    class="navbar bg-dark text-white"
+    style="background-color: #e3f2fd; margin-bottom:20px"
+  >
+    <h2>Cart</h2>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+        <h5 class="card-title">Producto 1: {{ products.product1 }}</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <h5 class="card-title">Producto 2: {{ products.product2 }}</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <h5 class="card-title">Producto 3: {{ products.product3 }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../EventBus/EventBus.js"></script>
+<script src="script.js"></script>
